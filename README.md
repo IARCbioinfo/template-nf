@@ -1,4 +1,4 @@
-#Empty template for nextflow pipelines
+# Empty template for nextflow pipelines
 
 ## Name
 ...
