@@ -1,0 +1,19 @@
+machine:
+  services:
+    - docker
+  post:
+    - wget -qO- get.nextflow.io | bash ; chmod 755 nextflow ; sudo ln -s ~/nextflow /usr/local/bin/
+test:
+  override:
+    - |
+      cd ~/template-nf
+      docker build -t iarcbioinfo/template-nf .
+    - | #use bed TP53_all.bed
+      nextflow run ~/template-nf/.nf --help
+    - | #use bed TP53_all.bed
+      nextflow run ~/template-nf/.nf --help
+deployment:
+  git:
+    branch: [master, dev]
+    commands:
+      - ./deploy.sh
