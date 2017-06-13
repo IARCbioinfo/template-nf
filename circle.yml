@@ -11,7 +11,7 @@ test:
     - | #use bed TP53_all.bed
       nextflow run ~/template-nf/script.nf --help
     - | #use bed TP53_all.bed
-      nextflow run ~/template-nf/script.nf --help
+      nextflow run ~/template-nf/script.nf -with-docker iarcbioinfo/template-nf --help
 deployment:
   git:
     branch: [master, dev]
