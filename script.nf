@@ -46,7 +46,7 @@ if (params.help) {
     log.info "Flags:"
     log.info "--<FLAG>                                                    <DESCRIPTION>"
     log.info ""
-    exit 1
+    exit 0
 } else {
 
 /* Software information */
