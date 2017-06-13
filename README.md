@@ -1,7 +1,8 @@
 # Empty template for nextflow pipelines
 
 ## Name
-Insert here the workflow representation 
+
+![Workflow representation](template-nf.png)
 
 ...
 
