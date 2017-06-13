@@ -1,8 +1,6 @@
 #! /usr/bin/env nextflow
 
-/*
-vim: syntax=groovy
--*- mode: groovy;-*- */
+//vim: syntax=groovy -*- mode: groovy;-*-
 
 // Copyright (C) 2017 IARC/WHO
 
@@ -40,10 +38,13 @@ if (params.help) {
     log.info "nextflow run iarcbioinfo/template-nf [-with-docker] [OPTIONS]"
     log.info ""
     log.info "Mandatory arguments:"
-    log.info "--<OPTION>     <TYPE>     <DESCRIPTION>"
+    log.info "--<OPTION>                      <TYPE>                      <DESCRIPTION>"
     log.info ""
     log.info "Optional arguments:"
-    log.info "--<OPTION>     <TYPE>     <DESCRIPTION>"
+    log.info "--<OPTION>                      <TYPE>                      <DESCRIPTION>"
+    log.info ""
+    log.info "Flags:"
+    log.info "--<FLAG>                                                    <DESCRIPTION>"
     log.info ""
     exit 1
 } else {
