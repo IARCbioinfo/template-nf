@@ -16,4 +16,4 @@ deployment:
   git:
     branch: [master, dev]
     commands:
-      - ./deploy.sh
+      - chmod +x && ./deploy.sh
