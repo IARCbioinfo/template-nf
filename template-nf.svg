@@ -31,9 +31,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.43950165"
-     inkscape:cx="1175.4293"
-     inkscape:cy="895.95225"
+     inkscape:zoom="0.62154919"
+     inkscape:cx="631.75513"
+     inkscape:cy="604.72776"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -54,7 +54,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -10544,12 +10544,12 @@
      sodipodi:linespacing="125%"
      id="text21431"
      y="529.87494"
-     x="340.19131"
+     x="336.9913"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.79919243px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';letter-spacing:0px;word-spacing:0px;fill:#969696;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      xml:space="preserve"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';fill:#000000;fill-opacity:1"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';fill:#000000;fill-opacity:1"
        y="529.87494"
-       x="340.19131"
+       x="336.9913"
        id="tspan21433"
        sodipodi:role="line">default</tspan></text>
   <g
@@ -10679,7 +10679,7 @@
        sodipodi:role="line"
        id="tspan8016"
        x="234.79515"
-       y="332.36438"></tspan><tspan
+       y="332.36438" /><tspan
        sodipodi:role="line"
        x="234.79515"
        y="372.36438"
@@ -10696,7 +10696,7 @@
          x="250.96817"
          y="333.24377"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L'" /></flowRegion><flowPara
-       id="flowPara8050"></flowPara></flowRoot>  <flowRoot
+       id="flowPara8050" /></flowRoot>  <flowRoot
      xml:space="preserve"
      id="flowRoot8052"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.99999619px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -10708,7 +10708,7 @@
          x="244.53265"
          y="308.14517"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L'" /></flowRegion><flowPara
-       id="flowPara8058"></flowPara></flowRoot>  <g
+       id="flowPara8058" /></flowRoot>  <g
      transform="translate(380.08761,56.273358)"
      id="g8060">
     <text
@@ -10789,7 +10789,7 @@
        sodipodi:role="line"
        id="tspan8090"
        x="551.45398"
-       y="333.42444"></tspan></text>
+       y="333.42444" /></text>
   <flowRoot
      xml:space="preserve"
      id="flowRoot8092"
@@ -10802,7 +10802,7 @@
          x="581.11096"
          y="964.56946"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L'" /></flowRegion><flowPara
-       id="flowPara8098"></flowPara></flowRoot>  <text
+       id="flowPara8098" /></flowRoot>  <text
      sodipodi:linespacing="125%"
      id="text8115"
      y="902.60352"
