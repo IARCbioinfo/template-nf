@@ -1,8 +1,6 @@
 #! /usr/bin/env nextflow
 
-/*
-vim: syntax=groovy
--*- mode: groovy;-*- */
+/*vim: syntax=groovy -*- mode: groovy;-*- */
 
 // Copyright (C) 2017 IARC/WHO
 
