@@ -71,4 +71,7 @@ Flags are special parameters without value.
   | contrib1*    |            xx | Developer to contact for support (link to specific gitter chatroom) |
   | contrib2    |            xx | Developer |
   | contrib3    |            xx | Tester |
+  
+## References (optional)
 	
+## FAQ (optional)
