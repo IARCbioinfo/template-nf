@@ -14,6 +14,8 @@
   |-----------|---------------|
   | input1    | ...... |
   | input2    | ...... |
+  
+  Specify the test files location
 
 ## Parameters
 
@@ -29,11 +31,10 @@
 | param1    |            xx | ...... |
 | param2    |            xx | ...... |
 	
-## Usage (code example)
+## Usage (code example using the test files)
   ```
   ...
   ```
-  
 ## Help
   ```
   ...
