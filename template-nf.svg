@@ -32,8 +32,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="0.62154919"
-     inkscape:cx="631.75513"
-     inkscape:cy="604.72776"
+     inkscape:cx="1305.0549"
+     inkscape:cy="564.8982"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -54,7 +54,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -10226,8 +10226,8 @@
      sodipodi:nodetypes="cccccc"
      inkscape:connector-curvature="0"
      id="path17443"
-     d="m 448.10175,433.23122 0,26.22147 168.04352,0 0,281.20803 -130.25613,0 0,172.1687"
-     style="fill:none;fill-opacity:1;stroke:#737373;stroke-width:8.68538094;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:26.05614364, 8.68538121;stroke-dashoffset:0;stroke-opacity:1" />
+     d="m 448.10175,433.23122 0,23.7086 168.04352,0 0,254.25913 -130.25613,0 0,155.66933"
+     style="fill:none;fill-opacity:1;stroke:#737373;stroke-width:8.25873089;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:24.77619222, 8.25873074;stroke-dashoffset:0;stroke-opacity:1" />
   <rect
      style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:6.39999962;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect3166-59-0-7"
@@ -10544,12 +10544,12 @@
      sodipodi:linespacing="125%"
      id="text21431"
      y="529.87494"
-     x="336.9913"
+     x="340.19131"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.79919243px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';letter-spacing:0px;word-spacing:0px;fill:#969696;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      xml:space="preserve"><tspan
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';fill:#000000;fill-opacity:1"
        y="529.87494"
-       x="336.9913"
+       x="340.19131"
        id="tspan21433"
        sodipodi:role="line">default</tspan></text>
   <g
@@ -10810,12 +10810,12 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';letter-spacing:0px;word-spacing:0px;fill:#54ccc2;fill-opacity:1;stroke:none"
      xml:space="preserve"><tspan
        id="tspan8117"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L';text-align:center;text-anchor:middle;fill:#54ccc2;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L';text-align:center;text-anchor:middle;fill:#54ccc2;fill-opacity:1"
        y="902.60352"
        x="1060.3445"
        sodipodi:role="line">Output </tspan><tspan
        id="tspan8119"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L';text-align:center;text-anchor:middle;fill:#54ccc2;fill-opacity:1"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L';text-align:center;text-anchor:middle;fill:#54ccc2;fill-opacity:1"
        y="942.73132"
        x="1056.3445"
        sodipodi:role="line">format</tspan></text>
