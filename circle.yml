@@ -9,9 +9,9 @@ test:
       cd ~/template-nf
       docker build -t iarcbioinfo/template-nf .
     - | #use bed TP53_all.bed
-      nextflow run ~/template-nf/.nf --help > test1_help.txt
+      nextflow run ~/template-nf/script.nf --help > test1_help.txt
     - | #use bed TP53_all.bed
-      nextflow run ~/template-nf/.nf --help > test2_help.txt
+      nextflow run ~/template-nf/script.nf --help > test2_help.txt
 deployment:
   git:
     branch: [master, dev]
