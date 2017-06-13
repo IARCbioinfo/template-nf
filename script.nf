@@ -21,28 +21,34 @@ vim: syntax=groovy
 
 params.help = null
 
+log.info ""
+log.info "--------------------------------------------------------"
+log.info "  <PROGRAM_NAME> <VERSION>: <SHORT DESCRIPTION>         "
+log.info "--------------------------------------------------------"
+log.info "Copyright (C) IARC/WHO"
+log.info "This program comes with ABSOLUTELY NO WARRANTY; for details see LICENSE"
+log.info "This is free software, and you are welcome to redistribute it"
+log.info "under certain conditions; see LICENSE for details."
+log.info "--------------------------------------------------------"
+log.info ""
+
 if (params.help) {
-    log.info ''
-    log.info '--------------------------------------------------------'
-    log.info '  <PROGRAM_NAME> <VERSION>: <SHORT DESCRIPTION>         '
-    log.info '--------------------------------------------------------'
-    log.info 'Copyright (C) IARC/WHO'
-    log.info 'This program comes with ABSOLUTELY NO WARRANTY; for details see LICENSE'
-    log.info 'This is free software, and you are welcome to redistribute it'
-    log.info 'under certain conditions; see LICENSE for details.'
-    log.info '--------------------------------------------------------'
-    log.info ''
-    log.info '--------------------------------------------------------'
-    log.info '  USAGE                                    '
-    log.info '--------------------------------------------------------'
-    log.info ''
-    log.info 'nextflow run iarcbioinfo/template-nf [-with-docker] [OPTIONS]'
-    log.info ''
-    log.info 'Mandatory arguments:'
-    log.info '--<OPTION>     <TYPE>     <DESCRIPTION>'
-    log.info ''
-    log.info 'Optional arguments:'
-    log.info '--<OPTION>     <TYPE>     <DESCRIPTION>'
-    log.info ''
+    log.info "--------------------------------------------------------"
+    log.info "  USAGE                                                 "
+    log.info "--------------------------------------------------------"
+    log.info ""
+    log.info "nextflow run iarcbioinfo/template-nf [-with-docker] [OPTIONS]"
+    log.info ""
+    log.info "Mandatory arguments:"
+    log.info "--<OPTION>     <TYPE>     <DESCRIPTION>"
+    log.info ""
+    log.info "Optional arguments:"
+    log.info "--<OPTION>     <TYPE>     <DESCRIPTION>"
+    log.info ""
     exit 1
+} else {
+
+/* Software information */
+log.info "help=${params.help}"
+
 }
