@@ -8,7 +8,7 @@
 
 ## Dependencies 
 
-1. Nextflow : for commom installation procedures see the [IARC-nf](https://github.com/IARCbioinfo/IARC-nf) repository.
+1. Nextflow : for common installation procedures see the [IARC-nf](https://github.com/IARCbioinfo/IARC-nf) repository.
 2. ...
 
 To avoid installing the previous tools, install Docker. Docker installation is described in the [IARC-nf](https://github.com/IARCbioinfo/IARC-nf) repository.
