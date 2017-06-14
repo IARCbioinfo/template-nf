@@ -2,7 +2,7 @@ machine:
   services:
     - docker
   post:
-    - wget -qO- get.nextflow.io | bash ; chmod 755 nextflow ; sudo ln -s ~/nextflow /usr/local/bin/
+    - wget -qO- get.nextflow.io | bash ; chmod 755 nextflow ; sudo ln -s ~/nextflow /usr/local/bin/ ; sudo apt-get install graphviz
 test:
   override:
     - |
@@ -14,7 +14,8 @@ test:
     - | 
       cd
       nextflow run ~/template-nf/script.nf -with-docker iarcbioinfo/template-nf -with-dag dag.html
-      cp dag.html ~/template-nf/
+      nextflow run ~/template-nf/script.nf -with-docker iarcbioinfo/template-nf -with-dag dag.png
+      cp dag.html dag.png ~/template-nf/
 deployment:
   git:
     branch: [master, dev]
