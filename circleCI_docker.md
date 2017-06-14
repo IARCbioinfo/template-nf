@@ -2,7 +2,7 @@
 
 ##
 
-The two main usages of CircleCI are `tests` of the GitHub code and `deployment` of Docker images if tests ar passed.
+The two main usages of CircleCI are `tests` of the GitHub code and `deployment` of Docker images if tests are passed.
 
 CircleCI offers support for running Docker within build containers.  
 It uses Docker to build base images, run the tests within the container and deploy the images to a registry like Docker Hub.
