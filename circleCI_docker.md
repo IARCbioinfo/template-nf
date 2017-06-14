@@ -15,15 +15,21 @@ To integrate an automated Docker build to an existing repository on GitHub, use 
 * go to the [Docker hub webpage](https://hub.docker.com/)
 
 * create an automated build
+![f1](circleCI_docker_fig/f1.png?raw=true)
 
 * link it with GitHub
+![f1](circleCI_docker_fig/f2.png?raw=true)
 
 * choose the existing repository you want to build on
+![f1](circleCI_docker_fig/f3.png?raw=true)
 
 * change owner to `iarcbioinfo` and add a description
+![f1](circleCI_docker_fig/f4.png?raw=true)
 
 * go to `build settings` to get a trigger URL to give to CircleCI
+![f1](circleCI_docker_fig/f5.png?raw=true)
 
 * click on `activate trigger` and take the trigger URL
+![f1](circleCI_docker_fig/f6.png?raw=true)
 
 * give the trigger URL to the `deploy.sh` file which is executed after tests by CircleCI are passed, to indicate the location of the Docker image on DockerHub, [example here](https://github.com/IARCbioinfo/template-nf/blob/master/deploy.sh#L2)
