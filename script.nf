@@ -48,8 +48,24 @@ if (params.help) {
     log.info ""
     exit 0
 } else {
-
 /* Software information */
-log.info "help=${params.help}"
-
+log.info "help:                               ${params.help}"
 }
+
+str = Channel.from('hello', 'hola', 'bonjour', 'ciao')
+
+process printHello {
+
+    input:
+    val str 
+
+    output: 
+    stdout into result
+
+    shell:
+    '''
+    echo !{str}
+    '''
+}	
+
+result.println()
