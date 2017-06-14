@@ -17,6 +17,8 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+str = Channel.from('hello', 'hola', 'bonjour', 'ciao')
+
 params.help = null
 
 log.info ""
@@ -49,10 +51,8 @@ if (params.help) {
     exit 0
 } else {
 /* Software information */
-log.info "help=${params.help}"
+log.info "help:                               ${params.help}"
 }
-
-str = Channel.from('hello', 'hola', 'bonjour', 'ciao')
 
 process printHello {
 
