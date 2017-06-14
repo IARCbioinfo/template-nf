@@ -64,7 +64,7 @@ Flags are special parameters without value.
 ...
 
 ## Directed Acyclic Graph
-[![DAG](DAG.png)](http://htmlpreview.github.io/?https://github.com/IARCbioinfo/template-nf/blob/master/dag.html)
+[![DAG](dag.png)](http://htmlpreview.github.io/?https://github.com/IARCbioinfo/template-nf/blob/master/dag.html)
 
 ## Contributions
 
