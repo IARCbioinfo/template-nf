@@ -13,7 +13,7 @@
 - ...
 - ...
 
-You can avoid installing all the external software by only installing Docker. See the [IARC-nf]((https://github.com/IARCbioinfo/IARC-nf) repository for more information.
+You can avoid installing all the external software by only installing Docker. See the [IARC-nf](https://github.com/IARCbioinfo/IARC-nf) repository for more information.
 
 
 ## Input 
