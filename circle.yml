@@ -8,10 +8,11 @@ test:
     - |
       cd ~/template-nf
       docker build -t iarcbioinfo/template-nf .
-    - | #use bed TP53_all.bed
+    - | 
       cd
       nextflow run ~/template-nf/script.nf --help
-    - | #use bed TP53_all.bed
+    - | 
+      cd
       nextflow run ~/template-nf/script.nf -with-docker iarcbioinfo/template-nf -with-dag dag.html
       cp dag.html ~/template-nf/
 deployment:
