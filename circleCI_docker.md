@@ -36,3 +36,17 @@ To integrate an automated Docker build to an existing repository on GitHub, use 
 
 * desactivate automated build on DockerHub when push, and add supplementary branches
 ![f7](circleCI_docker_fig/f7.png?raw=true)
+
+
+## Deployment with CircleCI
+
+* Add the following part in circle.yml to execute `deploy.sh` if tests are validated
+```
+deployment:
+  git:
+    branch: [master, dev]
+    commands:
+- chmod +x deploy.sh && ./deploy.sh
+```
+
+* If `deploy.sh` needs to push on your GitHub repo, add deploy keys following this [tutorial](https://circleci.com/docs/1.0/adding-read-write-deployment-key/) to let CircleCI push the changes. This will generate private and public key that you will assign respectively to you GitHub and CircleCI accounts.
