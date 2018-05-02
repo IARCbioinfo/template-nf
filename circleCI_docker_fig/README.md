@@ -1,0 +1,1 @@
+In addition to the figures, if you run a `deploy.sh` script that push something at the end of the CircleCI tests, you should follow [this](https://circleci.com/docs/1.0/adding-read-write-deployment-key/) link to add a deployment key that have read/write access to the GitHub account of the pipeline. 
