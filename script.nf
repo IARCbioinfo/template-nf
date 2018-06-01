@@ -1,7 +1,5 @@
 #! /usr/bin/env nextflow
 
-//vim: syntax=groovy -*- mode: groovy;-*-
-
 // Copyright (C) 2017 IARC/WHO
 
 // This program is free software: you can redistribute it and/or modify
