@@ -1,33 +1,21 @@
-# Set the base image to Debian
-FROM debian:jessie
+################## BASE IMAGE ######################
+FROM biocontainers/biocontainers:v1.0.0_cv4
 
-# File Author / Maintainer
+################## METADATA ######################
+
+LABEL base_image="biocontainers:v1.0.0_cv4"
+LABEL version="1.0"
+LABEL software="template-nf"
+LABEL software.version="1.0"
+LABEL about.summary="Description of the pipeline"
+LABEL about.home="http://github.com/IARCbioinfo/template-nf"
+LABEL about.documentation="http://github.com/IARCbioinfo/template-nf/README.md"
+LABEL about.license_file="http://github.com/IARCbioinfo/template-nf/LICENSE.txt"
+LABEL about.license="GNU-3.0"
+
+################## MAINTAINER ######################
 MAINTAINER **username** <**usermail**>
 
-RUN mkdir -p /var/cache/apt/archives/partial && \
-	touch /var/cache/apt/archives/lock && \
-	chmod 640 /var/cache/apt/archives/lock && \
-	apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F76221572C52609D && \
-	apt-get clean && \
-	apt-get update -y && \
+################## INSTALLATION ######################
 
-  # Install dependences
-  DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
-  git && \
-  # add other dependences necessary
-
-  # HERE INSTALL NECESSARY SOFTWARE
-  # Example
-  # wget **AddressToRepository** && \
-  # tar **Archive** && \
-  # cd **Directory** && \
-  # make && \
-  # make install && \
-
-  # Remove unnecessary dependences
-  DEBIAN_FRONTEND=noninteractive apt-get remove -y \
-  git && \
-
-  # Clean
-  DEBIAN_FRONTEND=noninteractive apt-get autoremove -y && \
-  apt-get clean
+RUN conda install software_name ## check at https://anaconda.org/bioconda/repo ##
