@@ -18,4 +18,4 @@ MAINTAINER **username** <**usermail**>
 
 ################## INSTALLATION ######################
 
-RUN conda install software_name ## check at https://anaconda.org/bioconda/repo ##
+# RUN conda install software_name ## check at https://anaconda.org/bioconda/repo ##
