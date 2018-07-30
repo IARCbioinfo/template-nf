@@ -1,12 +1,7 @@
 version: 2
 
-machine: true
-
 jobs:
     build:
       steps:
         - checkout
-        - run: wget -qO- get.nextflow.io | bash ; chmod 755 nextflow ; sudo ln -s ~/nextflow /usr/local/bin/ ; sudo apt-get install graphviz
-        - run: cd ~/template-nf ; docker build -t iarcbioinfo/template-nf .
-        - run: cd ; nextflow run ~/template-nf/script.nf --help
-        - run: cd ; nextflow run ~/template-nf/script.nf -with-docker iarcbioinfo/template-nf -with-dag dag.html ; nextflow run ~/template-nf/script.nf -with-docker iarcbioinfo/template-nf -with-dag dag.png ; cp dag.html dag.png ~/template-nf/
+        - run: echo "Hello world"
