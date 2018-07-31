@@ -11,4 +11,6 @@ jobs:
         - run: cd ; nextflow run ~/project/script.nf --help
         - run: cd ; nextflow run ~/project/script.nf -with-docker tdelhomme/template-nf -with-dag dag.html ; nextflow run ~/project/script.nf -with-docker tdelhomme/template-nf -with-dag dag.png ; cp dag.html dag.png ~/project/
         - deploy:
-            command: chmod +x deploy.sh && ./deploy.sh
+            git:
+              branch: [dev, master]
+              command: chmod +x deploy.sh && ./deploy.sh
