@@ -6,6 +6,7 @@ jobs:
       steps:
         - checkout
         - run: wget -qO- get.nextflow.io | bash ; chmod 755 nextflow ; sudo ln -s ~/project/nextflow /usr/local/bin/ ; sudo apt-get install graphviz
+        - run: echo " docker.runOptions = '-u $(id -u):$(id -g)' " > ~/.nextflow/config
         - run: cd ~/project/ ; docker build -t tdelhomme/template-nf .
         - run: cd ; nextflow run ~/project/script.nf --help
         - run: cd ; nextflow run ~/project/script.nf -with-docker tdelhomme/template-nf -with-dag dag.html ; nextflow run ~/project/script.nf -with-docker tdelhomme/template-nf -with-dag dag.png ; cp dag.html dag.png ~/project/
