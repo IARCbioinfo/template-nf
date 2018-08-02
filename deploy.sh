@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ~/project/
-git config --global user.email "follm@iarc.fr"
+git config --global user.email "delhommet@students.iarc.fr"
 git config --global user.name "Circle CI_$CIRCLE_PROJECT_REPONAME_$CIRCLE_BRANCH"
 git add .
 git status
