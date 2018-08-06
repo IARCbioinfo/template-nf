@@ -17,5 +17,5 @@ LABEL about.license="GNU-3.0"
 MAINTAINER **username** <**usermail**>
 
 ################## INSTALLATION ######################
-
-# RUN conda install software_name ## check at https://anaconda.org/bioconda/repo ##
+COPY environment.yml /
+RUN conda env update -n root -f /environment.yml && conda clean -a 

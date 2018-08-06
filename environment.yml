@@ -1,0 +1,5 @@
+name: template-nf
+channels:
+  - bioconda
+dependencies:
+  - samtools=1.9
