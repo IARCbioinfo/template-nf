@@ -2,6 +2,7 @@
 ## Empty template for nextflow pipelines (short description)
 
 [![CircleCI](https://circleci.com/gh/IARCbioinfo/template-nf.svg?style=svg)](https://circleci.com/gh/IARCbioinfo/template-nf)
+[![Docker Hub](https://img.shields.io/badge/docker-ready-blue.svg)](https://hub.docker.com/r/iarcbioinfo/template-nf/) 
 
 ![Workflow representation](template-nf.png)
 
