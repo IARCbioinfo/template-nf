@@ -3,7 +3,7 @@ Bootstrap:docker
 
 %labels
     MAINTAINER **username** <**usermail**>
-    DESCRIPTION Container image containing all requirements for **name of the pipeline**
+    DESCRIPTION Container image containing all requirements for **pipeline**
     VERSION 1.0
 
 %files
