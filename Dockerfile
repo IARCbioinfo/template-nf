@@ -1,9 +1,9 @@
 ################## BASE IMAGE ######################
-FROM biocontainers/biocontainers:v1.0.0_cv4
+FROM nfcore/base
 
 ################## METADATA ######################
 
-LABEL base_image="biocontainers:v1.0.0_cv4"
+LABEL base_image="nfcore/base"
 LABEL version="1.0"
 LABEL software="template-nf"
 LABEL software.version="1.0"
