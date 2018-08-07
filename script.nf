@@ -1,6 +1,6 @@
 #! /usr/bin/env nextflow
 
-// Copyright (C) 2018 IARC/WHO
+// Copyright (C) 2017 IARC/WHO
 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
