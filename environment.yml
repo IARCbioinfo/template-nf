@@ -1,6 +1,5 @@
 name: template-nf
 channels:
-  - defaults
   - conda-forge
   - bioconda
 dependencies:
