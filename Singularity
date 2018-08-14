@@ -1,4 +1,4 @@
-From:biocontainers/biocontainers:v1.0.0_cv4
+From:nfcore/base
 Bootstrap:docker
 
 %labels
