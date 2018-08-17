@@ -7,9 +7,9 @@ jobs:
         - checkout
         - run: wget -qO- get.nextflow.io | bash ; chmod 755 nextflow ; sudo mv ~/project/nextflow /usr/local/bin/ ; sudo apt-get install graphviz
         - run: echo " docker.runOptions = '-u $(id -u):$(id -g)' " > ~/.nextflow/config
-        - run: cd ~/project/ ; docker build -t tdelhomme/template-nf .
+        - run: cd ~/project/ ; docker build -t iarcbioinfo/template-nf .
         - run: cd ; nextflow run ~/project/script.nf --help
-        - run: cd ; nextflow run ~/project/script.nf -with-docker tdelhomme/template-nf -with-dag dag.html ; nextflow run ~/project/script.nf -with-docker tdelhomme/template-nf -with-dag dag.png ; cp dag.html dag.png ~/project/
+        - run: cd ; nextflow run ~/project/script.nf -with-docker iarcbioinfo/template-nf -with-dag dag.html ; nextflow run ~/project/script.nf -with-docker tdelhomme/template-nf -with-dag dag.png ; cp dag.html dag.png ~/project/
         - deploy:
             branch: [dev, master]
             command: chmod +x deploy.sh && ./deploy.sh
