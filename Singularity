@@ -12,3 +12,6 @@ Bootstrap:docker
 %post
     /opt/conda/bin/conda env update -n root -f /environment.yml
     /opt/conda/bin/conda clean -a
+
+# environment.yml commit ID: c92804b
+
