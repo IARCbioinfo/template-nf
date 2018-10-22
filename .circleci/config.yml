@@ -10,7 +10,7 @@ jobs:
         - run: cd ~/project/ ; docker build -t iarcbioinfo/template-nf .
         - run: cd ; nextflow run ~/project/script.nf --help
         - run: cd ; nextflow run ~/project/script.nf -with-docker iarcbioinfo/template-nf -with-dag dag.html
-        - run: cd ; mv ~/results/nf-pipeline_info/template_dag.html ~/project/
+        - run: cd ; mv ~/nf-pipeline_info/template_dag.html ~/project/
         - deploy:
             branch: [dev, master]
             command: chmod +x deploy.sh && ./deploy.sh
